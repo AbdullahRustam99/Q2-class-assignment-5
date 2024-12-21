@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
 import Vector from "@/app/images/Vector.png"
-
 import icon1 from "@/app/images/Icon_11_.png"
 import icon2 from "@/app/images/icon 2.png"
 import icon3 from "@/app/images/icon 3.png"
