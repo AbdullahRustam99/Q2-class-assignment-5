@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Button from "@/app/compunents/Button";
-const Simple_div = ({ btn_text, p_text, h_text, img ,classe}: any) => {
+const Simple_div = (btn_text, p_text, h_text, img ,classe) => {
   return (
     
     <div className="flex justify-center items-center gap-10 w-full max-md:flex-col    ">
