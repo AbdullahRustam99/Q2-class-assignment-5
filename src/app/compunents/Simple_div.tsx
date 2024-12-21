@@ -1,15 +1,14 @@
 "use client";
 import React from "react";
-import Button from "@/app/compunents/Button";
-
+import { StaticImageData } from "next/image";
 interface Contenttype {
-  p_text: string
-  h_text: string
-  classe: string
-  img: 
+  p_text?: string;
+  h_text?: string;
+  classe?: string;
+  img?: StaticImageData;
 }
 
-const Simple_div = (p_text, h_text, img ,classe) => {
+const Simple_div = ({p_text, h_text, img ,classe}:Contenttype) => {
   return (
     
     <div className="flex justify-center items-center gap-10 w-full max-md:flex-col    ">
@@ -20,7 +19,7 @@ const Simple_div = (p_text, h_text, img ,classe) => {
         <p className="text-[18px] font-normal leading-[30px] max-sm:tracking-[2px]">
           {p_text}
         </p>
-        <Button text="lets go" />
+        <button>lets go</button>
       </div>
       <div className={classe}>{img}</div>
     </div>

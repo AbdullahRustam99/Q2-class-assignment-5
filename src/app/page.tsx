@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import VectorDown from "@/app/images/Vector down.png";
 import Vector from "@/app/images/Vector.png";
-import Button from "@/app/compunents/Button";
 import Div from "@/app/compunents/Simple_div";
 import Rev_div from "@/app/compunents/Revers_div";
 import Work from "@/app/images/Work Together Image.png";
@@ -49,7 +48,7 @@ const Home = () => {
             <button className="rounded-lg bg-[#FFE492] text-[#043873] font-medium px-[16px] py-[9px]">
               Login
             </button>
-            <Button text="Try Whitepace free" />
+            <button >Try Whitepace free</button>
           </div>
         </div>
       </nav>
@@ -59,7 +58,7 @@ const Home = () => {
       <section className="h-screen flex items-center justify-center text-black bg-white p-10 max-sm:h-[110vh]  max-sm:px-[18px] max-sm:py-[80px]">
         <Div
           classe="bg-[#C4DEFD] p-12 w-[526px] h-[350px] max-sm:w-[100%]"
-          btn_text="Get Started"
+    
           h_text="Project Management "
           p_text="Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note."
         />
@@ -67,8 +66,8 @@ const Home = () => {
 
       <section className="h-screen flex items-center justify-center text-black bg-white p-10 max-sm:h-[110vh] max-sm:px-[18px] max-sm:py-[80px]">
         <Rev_div
-          img={<Image src={Work} alt="Work" />}
-          btn_text="Try it now"
+          img={Work}
+      
           h_text="Work together"
           p_text="With whitepace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share the URL with others."
         />
@@ -76,8 +75,7 @@ const Home = () => {
 
       <section className="h-screen flex items-center justify-center  text-white bg-[#043873] max-sm:px-[18px] max-sm:py-[80px] p-10">
         <Div
-          btn_text="Let’s Go"
-          h_text="Use as Extension"
+               h_text="Use as Extension"
           p_text="Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes."
           classe="bg-[#C4DEFD] p-12 w-[526px] h-[350px] max-sm:w-[100%]"
         />
@@ -85,8 +83,7 @@ const Home = () => {
 
       <section className="h-screen flex items-center justify-center text-black bg-white p-10 max-sm:h-[110vh] max-sm:px-[18px] max-sm:py-[80px]">
         <Rev_div
-          btn_text="Let’s Go"
-          h_text="Customise it to your needs"
+               h_text="Customise it to your needs"
           p_text="Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API."
           classe="bg-[#C4DEFD] p-12 w-[526px] h-[350px] max-sm:w-[100%]"
         />
@@ -99,7 +96,7 @@ const Home = () => {
       <section className="h-screen flex items-center justify-center text-white bg-[#043873] p-10 max-sm:px-[18px] max-sm:py-[80px]">
         <Div
           classe="bg-[#C4DEFD] p-10 w-[526px] h-[350px] max-sm:w-0 max-sm:p-0 max-sm:h-0"
-          btn_text="Try Taskey"
+      
           h_text="Your work, everywhere you are"
           p_text="Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!"
         />
@@ -107,9 +104,8 @@ const Home = () => {
 
       <section className="h-screen flex items-center justify-center text-black bg-white p-10 max-sm:h-[110vh] max-sm:px-[18px] max-sm:py-[80px]">
         <Div
-          img={<Image src={Data} alt="Work" />}
-          btn_text="Read more"
-          h_text="100% your data"
+          img={Data}
+                h_text="100% your data"
           p_text="The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them."
         />
       </section>
@@ -128,9 +124,8 @@ const Home = () => {
 
       <section className="h-screen flex items-center justify-center  text-white bg-[#043873] max-sm:px-[18px] max-sm:py-[80px]">
         <Rev_div
-          img={<Image src={App} alt="Work" />}
-          btn_text="Read more"
-          h_text="Work with Your Favorite Apps Using whitepace."
+          img={App} 
+                h_text="Work with Your Favorite Apps Using whitepace."
           p_text="Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success."
         />
       </section>
@@ -159,7 +154,7 @@ const Home = () => {
           <p className="text-[18px] max-sm:tracking-[2px]">
             Get started for free. Add your whole team as your needs grow.
           </p>
-          <Button text="Try Taskey free" />
+          <button>Try Taskey free</button>
           <p className="text-[18px] max-sm:tracking-[2px]">
             On a big team? Contact sales
           </p>
