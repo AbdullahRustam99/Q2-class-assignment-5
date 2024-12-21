@@ -12,7 +12,7 @@ const Simple_div = (btn_text, p_text, h_text, img ,classe) => {
         <p className="text-[18px] font-normal leading-[30px] max-sm:tracking-[2px]">
           {p_text}
         </p>
-        <Button text={btn_text} />
+        <Button text="lets go" />
       </div>
       <div className={classe}>{img}</div>
     </div>
