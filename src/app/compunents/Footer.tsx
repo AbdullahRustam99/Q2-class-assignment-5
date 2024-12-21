@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import Vector from "@/app/images/Vector.png"
-import Button from './Button';
+import Button from "@/app/compunents/Button";
 import icon1 from "@/app/images/Icon_11_.png"
 import icon2 from "@/app/images/icon 2.png"
 import icon3 from "@/app/images/icon 3.png"
@@ -48,7 +48,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-5">
             <h2 className=" font-bold text-[28px]">Try It Today</h2>
             <p>Get started for free. Add your whole team as your needs grow.</p>
-            <Button text="Start today" />
+            <Button text="Get Start"/>
           </ul>
         </div>
       </div>
