@@ -5,7 +5,7 @@ interface Contenttype {
   p_text?: string;
   h_text?: string;
   classe?: string;
-  img: StaticImageData;
+  img?: StaticImageData;
 }
 
 const Simple_div = (propes:Contenttype) => {

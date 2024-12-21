@@ -58,7 +58,7 @@ const Home = () => {
       <section className="h-screen flex items-center justify-center text-black bg-white p-10 max-sm:h-[110vh]  max-sm:px-[18px] max-sm:py-[80px]">
         <Div
           classe="bg-[#C4DEFD] p-12 w-[526px] h-[350px] max-sm:w-[100%]"
-        
+          
           h_text="Project Management "
           p_text="Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note."
         />
