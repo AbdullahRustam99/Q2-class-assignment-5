@@ -48,7 +48,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-5">
             <h2 className=" font-bold text-[28px]">Try It Today</h2>
             <p>Get started for free. Add your whole team as your needs grow.</p>
-            <Button text="Get Start"/>
+            <button>Get Start</button>
           </ul>
         </div>
       </div>
