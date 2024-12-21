@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
 import bg1 from "@/app/images/Element.png";
-import Button from '@/app/compunents/Button';
 const main = () => {
 	return (
     <main className="h-screen flex items-center flex-col justify-center bg-[#043873] max-sm:px-[18px] max-sm:py-[80px]">
@@ -19,7 +18,7 @@ const main = () => {
             Project management software that enables your teams to collaborate,
             plan, analyze and manage everyday tasks
           </p>
-          <Button text="Try Whitepace free" />
+          <button >Try Whitepace free </button>
         </div>
         <div className="bg-[#C4DEFD] p-12 w-[526px] h-[350px] max-sm:w-[100%] "></div>
       </div>
